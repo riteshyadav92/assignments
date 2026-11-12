@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Yadav | Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef4f5;
+            margin: 0;
+            padding: 20px;
+            color: #222;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        nav {
+            margin-bottom: 25px;
+        }
+
+        nav a {
+            color: #252c8a;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 25px;
+        }
+
+        .profile {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #dce9e3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 45px;
+        }
+
+        .project-image {
+            width: 150px;
+            height: 100px;
+            background: #dce9e3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            border-radius: 5px;
+        }
+
+        li {
+            margin-bottom: 7px;
+        }
+
+        a {
+            color: #252c8a;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h1>Ritesh Yadav</h1>
+        <p>B.Tech Student - Learning to build for the web</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="profile">👨‍🎓</div>
+
+        <p>
+            I am a first-year B.Tech student at
+            Invertis University. I enjoy learning
+            HTML, CSS, Java and solving problems.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML Fundamentals</li>
+            <li>CSS Basics</li>
+            <li>Java Programming</li>
+            <li>Git and GitHub</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech Computer Science - 2026-2030</li>
+            <li>Invertis University</li>
+        </ul>
+    </section>
+
+    <section id="college">
+        <h2>My College / My Course</h2>
+        <ul>
+            <li>Invertis University</li>
+            <li>B.Tech CSE</li>
+            <li>Learning Web Development</li>
+        </ul>
+
+        <h3>My Learning Sequence</h3>
+        <ol>
+            <li>HTML Structure</li>
+            <li>CSS Styling</li>
+            <li>Java Programming</li>
+            <li>Responsive Layouts</li>
+        </ol>
+
+        <p><b>HTML</b><br>
+        Structures the content of a web page.</p>
+
+        <p><b>CSS</b><br>
+        Controls how a web page looks.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <h3>My First Web Page</h3>
+
+        <p>
+            A simple page built with headings,
+            paragraphs and links.
+        </p>
+
+        <div class="project-image">🏞️</div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>
+            Email:
+            <a href="mailto:riteshyadav36899@gmail.com">
+                riteshyadav36899@gmail.com
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/" target="_blank">
+                Visit GitHub
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Ritesh Yadav. All rights reserved.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
